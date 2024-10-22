@@ -9,7 +9,6 @@ RUN apk update && apk add --no-cache mariadb mariadb-client
 
 RUN	mkdir /var/run/mysqld; \
 	chmod 777 /var/run/mysqld; \
-	chown -R mysql:mysql /var/lib/mysql; \
 	{ echo '[mysqld]'; \
 	  echo 'skip-host-cache'; \
 	  echo 'skip-name-resolve'; \

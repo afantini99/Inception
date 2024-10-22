@@ -1,4 +1,4 @@
-name = inceptio
+name = inception
 all:
 	@printf "Launch configuration ${name}...\n"
 	@echo "\n${YELLOW}Generating certificates...${DEF_COLOR}"
